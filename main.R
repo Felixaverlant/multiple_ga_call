@@ -2,8 +2,8 @@ library(RGoogleAnalytics)
 library(FactoMineR)
 library(plyr)
 
-client.id <- "522133328058-lolfc387le9eltv491mbff2ekbup6f16.apps.googleusercontent.com"
-client.secret <- "_Q6Tt9J63VUdDGwznK_8j5qn"
+client.id <- "CLIENTID"
+client.secret <- "CLIENT_SECRET"
 token <- Auth(client.id, client.secret)
 
 save(token, file="./token_acp_ga")
